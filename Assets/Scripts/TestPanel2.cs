@@ -33,7 +33,7 @@ namespace Xsjm
 
         protected override void OnOpen(object data = null)
         {
-            Debug.Log(string.Format("OnOpen is calling,param is {0}",data.ToString()));
+            //Debug.Log(string.Format("OnOpen is calling,param is {0}",data.ToString()));
         }
 
         protected override void OnClose()

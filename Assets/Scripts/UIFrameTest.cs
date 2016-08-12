@@ -15,7 +15,7 @@ namespace Xsjm
             UIManager.Instance.OnShow = delegate(UIBase ui){
                 Debug.Log(string.Format("Show UI Name is:{0}", ui.UIName));
             };
-            UIManager.Instance.Show<TestPanel1>();
+            UIManager.Instance.Show<TestPanel2>();
             
         }
     }
